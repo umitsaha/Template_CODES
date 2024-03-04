@@ -1,5 +1,6 @@
 struct HASH
 {
+    //while storing hash values use dual hash
     vector<ll>hsh;
     ll n;
     HASH(string s){
