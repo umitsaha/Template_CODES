@@ -12,3 +12,16 @@ vector<int> prefix_function(string s) {
     }
     return pi;
 }
+
+// match pref
+//v-> pref function vect
+ll baal=j;
+if(baal){
+    // lst matc
+    baal=v[baal-1];
+    // until match
+    while(baal>0 && 'A'+l!=s[baal]){
+        baal=v[baal-1];
+    }
+    baal+=(s[baal]=='A'+l);
+}
